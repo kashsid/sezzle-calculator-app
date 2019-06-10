@@ -6,6 +6,11 @@ import * as fromCalculator from './redux/Reducers'
 import './App.css'
 
 export class App extends Component {
+
+  componentDidMount() {
+    console.log("mounted calculator!");
+  }
+
   render() {
     return (
       <div className='calculator--container'>
